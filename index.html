@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversor de Temperatura</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <h3>Conversor de Temperatura</h3>
+    <h5>Celsius para Fanhrenheit e Fanhrenheit para Celsius</h5>
+
+    <label for="temperatura">Temperatura:</label>
+    <input type="number" id="temperatura" placeholder="Digite a temperatura">
+  
+    <label for="escala">Converter para:</label>
+    <select id="escala">
+      <option value="fahrenheit">Fahrenheit</option>
+      <option value="celsius">Celsius</option>
+    </select>
+  
+    <button onclick="converterTemperatura()">Converter</button>
+  
+    <h3 id="resultado"></h3>
+
+    <script src="index.js"></script>
+</body>
+</html>
